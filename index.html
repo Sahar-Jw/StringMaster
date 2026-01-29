@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Master</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- HEADER START -->
+    <header>
+        <!-- NAV START -->
+        <nav class="d-flex justify-content-between ">
+            <div class="logo d-flex align-items-center gap-2">
+                <i class="fa-brands fa-itunes-note text-white p-2 rounded-3 logo-icon"></i>
+                <h1 class=" text-white mb-0">
+                    StringMaster
+                </h1>
+            </div>
+            <ul class="d-flex gap-5 align-items-center m-0 ">
+                <li>
+                    <a href="#faetures">Faetures</a>
+                </li>
+                <li>
+                    <a href="#pricing">Pricing</a>
+                </li>
+                <li>
+                    <a href="#instructors">Instructors</a>
+                </li>
+                <li>
+                    <a href="#reviews">Reviews</a>
+                </li>
+            </ul>
+            <button class="main-btn primary-btn p-2 px-3 fw-medium rounded-3 border border-0">
+                Start Free Trile
+            </button>
+
+            <button class="menu navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered" style="color: var(--primary-text); font-size: 20px;"></i>
+            </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"
+                style="height: 100vh; background-color: var(--primary-bg-color);">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: var(--primary-text); font-weight: 800;">StringMaster</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="color: var(--sec-text);">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Faetures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Instructors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Reviews</a>
+                        </li>
+                        </ul>
+                        <button class=" btnmain-btn primary-btn p-2 px-3 fw-bold rounded-3 border border-0 mt-3" >Start Free Trile</button>
+                    </div>
+                </div>
+        </nav>
+        <!-- NAV END -->
+
+        <!-- HERO START -->
+        <div class="hero d-flex gap-5 justify-content-between">
+            <div class="text">
+                <ul class="rounded-5">
+                    <li>
+                        <p>
+                            New: AI-powered chord recognition
+                        </p>
+                    </li>
+                </ul>
+            <h1>
+                Master guitar with <span> interactive </span> lessons
+            </h1>
+            <p>
+                Learn at your own pace with our visual fretboard trainer. From beginner chords to advanced techniques - all in one platform.
+            </p>
+            <button class="main-btn primary-btn p-3 fw-medium rounded-3 border border-0 me-2">
+                Start Learning 
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+            <button class="main-btn sec-btn p-3 fw-medium rounded-3 border border-0">
+                See How It Works
+            </button>
+            </div>
+            <img src="./assets/img/hero-img.png" alt="">
+        </div>
+        <!-- HERO END -->
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main>
+        <!-- FAETURES SECTION START -->
+        <section class="faetures" id="faetures">
+            <div class="head d-flex justify-content-center flex-column align-items-center">
+                <span>
+                Faetures
+                </span>
+                <h1>
+                    Everything you need to learn guitar
+                </h1>
+                <p>
+                    Our platform combines visual learning with hands-on practice to accelerate your guitar journey.
+                </p>
+            </div>
+            <div class="container-fluid">
+                <!-- <div class="row d-flex"> -->
+                    <div class="cards rounded-4">
+                        <i class="fa-solid fa-border-all card-icon rounded-4"></i>
+                        <h2>
+                            Interactive Fretboard
+                        </h2>
+                        <p>
+                            visual chord diagrams that show exactly where to place your fingers. Practice anywhere,anytime.
+                        </p>
+                    </div>
+                    <div class="cards rounded-4">
+                        <i class="fa-solid fa-circle-play card-icon rounded-4"></i>
+                        <h2>
+                            HD video Lessons
+                        </h2>
+                        <p>
+                            200+ Professionally filmed lessons from beginner basics to advanced techniques.
+                        </p>
+                    </div>
+                    <div class="cards rounded-4">
+                        <i class="fa-solid fa-ranking-star card-icon rounded-4"></i>
+                        <h2>
+                            Progress Tracking
+                        </h2>
+                        <p>
+                            Set goals, track your practice time, and watch your slkills improve over time.
+                        </p>
+                    </div>
+                <!-- </div> -->
+                <!-- <div class="row"> -->
+                    <div class="cards rounded-4">
+                        <i class="fa-brands fa-itunes-note card-icon rounded-4"></i>
+                        <h2>
+                            Song Library
+                        </h2>
+                        <p>
+                            Learn your favorite songs with tabs, chords, and play-along backing tracks.
+                        </p>
+                    </div>
+                    <div class="cards rounded-4">
+                        <i class="fa-solid fa-microphone card-icon rounded-4"></i>
+                        <h2>
+                            AI Feedback
+                        </h2>
+                        <p>
+                            Get real-time feedback on your playing through our audio recognition technology.
+                        </p>
+                    </div>
+                    <div class="cards rounded-4">
+                        <i class="fa-solid fa-people-group card-icon rounded-4"></i>
+                        <h2>
+                            Community
+                        </h2>
+                        <p>
+                            connect with fellow learners, share progress, and get tips from experinced players.
+                        </p>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </section>
+        <!-- FAETURES SECTION END -->
+
+        <!-- PIRCING SECTION START -->
+        <section class="pricing" id="pricing">
+            <div class="head d-flex justify-content-center flex-column align-items-center">
+                <span>
+                    Pricing
+                </span>
+                <h1>
+                    Simple, transparent pricing
+                </h1>
+                <p>
+                    Start with a free trial. No credit card required.
+                </p>
+                <div class="date-bar">
+                    <ul class="d-flex align-items-center justify-content-evenly gap-4 rounded-3">
+                        <li>
+                            <button class="main-btn rounded-3">
+                                Monthly
+                            </button>
+                        </li>
+                        <li>
+                            <button class="main-btn rounded-3 position-relative">
+                                Quarterly
+                                <span class="position-absolute rounded-3 top-0 start-100 translate-middle text-bg-success border border-0 ">
+                                    -15%
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="main-btn rounded-3 position-relative">
+                                Yearly
+                                <span class="position-absolute rounded-3 top-0 start-100 translate-middle text-bg-success border border-0 ">
+                                    -30%
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contain d-flex gap-4">
+                <div class="deal rounded-4">
+                    <p class="type">
+                        Starter
+                    </p>
+                    <h2>
+                        Free
+                    </h2>
+                    <p>
+                        Perfect for trying out the basics
+                    </p>
+                    <div class="offers">
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            10 beginner lessons
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            Interactive fretboard
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            5 songs with tabs
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            Community access
+                        </p>
+                    </div>
+                    <button class="main-btn sec-btn rounded-3 border-0">
+                        Gret Started
+                    </button>
+                </div>
+                <div class="deal rounded-4">
+                    <p class="type">
+                        Pro
+                    </p>
+                    <h2>
+                        <span class="dollar">$</span>30<span class="period">/mo</span>
+                    </h2>
+                    <p>
+                        For serious learners
+                    </p>
+                    <div class="offers">
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            all 200+ video lessons
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            Full sonh library (500+)
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            AI feedback on playing
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            Progress tracking
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            Download lessons offline
+                        </p>
+                    </div>
+                    <button class="main-btn sec-btn rounded-3 border-0">
+                        Start Free Trial
+                    </button>
+                </div>
+                <div class="deal rounded-4">
+                    <p class="type">
+                        Lifetime
+                    </p>
+                    <h2 class="mb-3">
+                        <span class="dollar">$</span>440
+                    </h2>
+                    <p>
+                        One-time payment
+                    </p>
+                    <p class="best-value rounded-5">
+                        Best value
+                    </p>
+                    <p>
+                        Forever access, no recurring fees
+                    </p>
+                    <div class="offers">
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            Everything in Pro
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            1-on-1 coaching session
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            Exclusive masterclasses
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            Priority support
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check check"></i>
+                            All future updates
+                        </p>
+                    </div>
+                    <button class="main-btn sec-btn rounded-3 border-0">
+                        Gret Lifetime Access
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- PIRCING SECTION END -->
+
+        <!-- INSTRUCTORS SECTION START -->
+        <section class="instructors" id="instructors">
+            <div class="head d-flex justify-content-center flex-column align-items-center">
+                <span>
+                    instructors
+                </span>
+                <h1>
+                    Learn from the best
+                </h1>
+                <p>
+                    Our instructors have decades of combined experince and a passion for teaching.
+                </p>
+            </div>
+            <div class="teachers d-flex justify-content-between">
+                <div class="teacher text-center">
+                <img src="./assets/img/acoustic-specialist.jpg" alt="" class="rounded-circle">
+                <h2>
+                    Marcus Chen
+                </h2>
+                <span>
+                    Acoustic Specialist
+                </span>
+                <p>
+                    15 years teaching, Berklee graduate
+                </p>
+            </div>
+            <div class="teacher text-center">
+                <img src="./assets/img/fingerstyle-expert.jpg" alt="" class="rounded-circle">
+                <h2>
+                    Sarah Williams
+                </h2>
+                <span>
+                    Fingerstyle Expert
+                </span>
+                <p>
+                    Youtube educator, 2M subscribers
+                </p>
+            </div>
+            <div class="teacher text-center">
+                <img src="./assets/img/blues-rock-guitar.jpg" alt="" class="rounded-circle">
+                <h2>
+                    James Rodriguez
+                </h2>
+                <span>
+                    Blues & Rock
+                </span>
+                <p>
+                    Session guitarist, 20+ albums
+                </p>
+            </div>
+            <div class="teacher text-center">
+                <img src="./assets/img/music-theory-instructor.jpg" alt="" class="rounded-circle">
+                <h2>
+                    Emily Park
+                </h2>
+                <span>
+                    Music Theory
+                </span>
+                <p>
+                    PhD in Music, award-wining educator
+                </p>
+            </div>
+            </div>
+        </section>
+        <!-- INSTRUCTORS SECTION END -->
+
+        <!-- TESTIMONIALS SECTION START -->
+        <section class="testimonials" id="reviews">
+            <div class="head d-flex justify-content-center flex-column align-items-center">
+                <span>
+                    testimonials
+                </span>
+                <h1>
+                    What our students say
+                </h1>
+            </div>
+            <div class="slider">
+                <div id="carouselExampleRide" class="carousel " data-bs-ride="true">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev" style="left: -11%;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next right-0" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next" style="right: -11%;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row gx-5">
+                                <div class="review col-lg-4">
+                                    <div class="info d-flex gap-3">
+                                        <img class="rounded-circle"
+                                        src="./assets/img/alex-student.jpg" alt="avatar"/>
+                                        <div class="text">
+                                            <h2>Alex Thompson</h2>
+                                            <p>Intermediate, 1 year</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                    <i class="fas fa-quote-left"></i>
+                                    I've tried several apps, but StringMaster's interactive fretboard finally made chord transitions click for me. Went from zero to playing songs in 3 months!
+                                    <i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <ul class="list-unstyled d-flex text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-flex gap-3">
+                                        <img class="rounded-circle"
+                                        src="./assets/img/maria-student.jpg" alt="avatar"/>
+                                        <div class="text">
+                                        <h2>
+                                        Maria Garcia</h2>
+                                        <p>Intermediate, 1 year</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                    <i class="fas fa-quote-left"></i>
+                                    The AI feedback feature is incredible. It's like having a personal instructor available 24/7. My fingerpicking has improved dramatically.
+                                    <i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <ul class="list-unstyled d-flex text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt fa-sm"></i>
+                                    </li>
+                                    </ul>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-flex gap-3">
+                                        <img class="rounded-circle"
+                                        src="./assets/img/david-student.jpg" alt="avatar"/>
+                                        <div class="text">
+                                            <h2>David Kim</h2>
+                                            <p>Pro subscriber, 8 months</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                    <i class="fas fa-quote-left"></i>
+                                    Worth every penny. The song library keeps me motivated, and the progress tracking shows exactly how far I've come. Highly recommend!
+                                    <i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <ul class="list-unstyled d-flex text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="far fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                <div class=" review col-lg-4">
+                                    <div class="info d-flex gap-3">
+                                        <img class="rounded-circle"
+                                        src="./assets/img/alex-student.jpg" alt="avatar"/>
+                                        <div class="text">
+                                            <h2>John Doe</h2>
+                                            <p>Pro subscriber, 8 months</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                    <i class="fas fa-quote-left"></i>
+                                    The AI feedback feature is incredible. It's like having a personal instructor available 24/7. My fingerpicking has improved dramatically.
+                                    <i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <ul class="list-unstyled d-flex text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-flex gap-3">
+                                        <img class="rounded-circle"
+                                        src="./assets/img/david-student.jpg" alt="avatar"/>
+                                        <div class="text">
+                                            <h2>Alex Rey</h2>
+                                            <p>Intermediate, 1 year</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                    <i class="fas fa-quote-left"></i>
+                                    Worth every penny. The song library keeps me motivated, and the progress tracking shows exactly how far I've come. Highly recommend!
+                                    <i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <ul class="list-unstyled d-flex text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt fa-sm"></i>
+                                    </li>
+                                    </ul>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-flex gap-3">
+                                        <img class="rounded-circle"
+                                        src="./assets/img/maria-student.jpg" alt="avatar"/>
+                                        <div class="text">
+                                            <h2>Maria Kate</h2>
+                                            <p>Intermediate, 1 year</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                    <i class="fas fa-quote-left"></i>
+                                    Worth every penny. The song library keeps me motivated, and the progress tracking shows exactly how far I've come. Highly recommend!
+                                    <i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <ul class="list-unstyled d-flex text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="far fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                <div class="review col-lg-4">
+                                    <div class="info d-flex gap-3">
+                                        <img class="rounded-circle"
+                                        src="./assets/img/david-student.jpg" alt="avatar"/>
+                                        <div class="text">
+                                            <h2>David Deynah</h2>
+                                            <p>Intermediate, 1 year</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                    <i class="fas fa-quote-left"></i>
+                                    Worth every penny. The song library keeps me motivated, and the progress tracking shows exactly how far I've come. Highly recommend!
+                                    <i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <ul class="list-unstyled d-flex text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-flex gap-3">
+                                        <img class="rounded-circle"
+                                        src="./assets/img/maria-student.jpg" alt="avatar"/>
+                                        <div class="text">
+                                            <h2>Maria Doe</h2>
+                                            <p>Intermediate, 1 year</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                    <i class="fas fa-quote-left"></i>
+                                    Worth every penny. The song library keeps me motivated, and the progress tracking shows exactly how far I've come. Highly recommend!
+                                    <i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <ul class="list-unstyled d-flex text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt fa-sm"></i>
+                                    </li>
+                                    </ul>
+                                </div>
+
+                                <div class="review col-lg-4 d-none d-lg-block">
+                                    <div class="info d-flex gap-3">
+                                        <img class="rounded-circle"
+                                        src="./assets/img/alex-student.jpg" alt="avatar"/>
+                                        <div class="text">
+                                            <h2>Alex Kate</h2>
+                                            <p>Intermediate, 1 year</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                    <i class="fas fa-quote-left"></i>
+                                    Worth every penny. The song library keeps me motivated, and the progress tracking shows exactly how far I've come. Highly recommend!
+                                    <i class="fas fa-quote-right"></i>
+                                    </p>
+                                    <ul class="list-unstyled d-flex text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="far fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </section>
+        <!-- TESTIMONIALS SECTION END -->
+
+        <!-- READY-TO-START SECTION START -->
+        <section class="ready-to-start d-flex justify-content-center align-items-center flex-column gap-3">
+            <h1>
+                Ready to start your guitar journey?
+            </h1>
+            <p>
+                Join 50,000+ students learning guitar the modern way. Start your free trial today.
+            </p>
+            <button class="main-btn primary-btn border border-0 rounded-3">
+                Start Free Trial →
+            </button>
+        </section>
+        <!-- READY-TO-START SECTION START -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="head d-flex justify-content-between">
+            <div class="web-info">
+                <div class="logo d-flex align-items-center gap-2">
+                    <i class="fa-brands fa-itunes-note text-white p-2 rounded-3 logo-icon"></i>
+                    <h1 class=" text-white mb-0">
+                        StringMaster
+                    </h1>
+                </div>
+                <p>
+                    The modern way to learn guitar. Interactive lessons, real-time feedback, and a supportive community.
+                </p>
+            </div>
+            <div class="product text-muted">
+                <h1>
+                    Product
+                </h1>
+                <ul>
+                    <li>
+                        <a href="#faetures">
+                            Faetures
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#pricing">
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Song Library
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Mobile App
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="company text-muted">
+                <h1>
+                    Company
+                </h1>
+                <ul>
+                    <li>
+                        <a href="#">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Careers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="support">
+                <h1>
+                    Support
+                </h1>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Help Center
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Community
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            STerms of Service
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright d-flex justify-content-between">
+            <p>
+                © 2026 StringMaster. All rights reserved.
+            </p>
+            <p>
+                Developed by <span>Sahar-Jw</span>
+            </p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+</body>
+</html>
